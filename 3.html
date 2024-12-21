@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset ="UTF-8">
+        <meta name="viewport"content="width=device-width,initial-scale=1.0">
+        <title>Input Example Elements</title>
+        <style>
+            body{
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                background-color: black;
+                padding: 20px;
+            }
+            table{
+                width: 50%;
+                margin:auto auto ;
+            }
+            th,td{
+                padding:15px;
+                text-align:left;
+                border: 1px solid green;
+            }
+            th{
+                background-color: green;
+                color: white;
+                font-size: 18x;
+            }
+            td{
+                background-color: skyblue;
+            }
+            input,select,textarea{
+                padding: 10px;
+                border: 1px solid green;
+                border-radius:14px;
+                width: 100%;
+                box-sizing: border-box;
+            }
+            input[type="text"],input[type="email"],input[type="password"],input[type="number"]{
+                background-color:ivory;
+                color: green;
+            }
+            input[type="submit"]{
+                background-color: black;
+                color:white;
+                font-size: 16px;
+                cursor: pointer;
+            }
+            input[type="submit"]:hover{
+                background-color: blue;
+            }
+            textarea{
+                background-color: ivory;
+                color: green;
+                height: 100px;
+            }
+            h2{
+                text-align: center;
+                color:green;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>Different HTML Input Elements</h2>
+        <table>
+            <tr>
+                <th>Input Type</th>
+                <th>Input Data</th>
+            </tr>
+            <tr>
+                <td>Text</td>
+                <td><input type="text" placeholder="Enter Text"></td>
+            </tr>
+            <td>Email</td>
+                <td><input type="email" placeholder="Enter email"></td>
+            </tr>
+            <td>password</td>
+                <td><input type="password" placeholder="Enter password"></td>
+            </tr>
+            <td>number</td>
+                <td><input type="number" placeholder="Enter number"></td>
+            </tr>
+            <td>Drop Down Menu</td>
+            <td>
+                <select>
+                    <option>Option 1</option>
+                    <option>Option 2</option>
+                    <option>Option 3</option>
+                </select>
+            </td>
+</tr>
+<td>Text Area</td>
+<td><textarea placeholder="Enter ypur message"></textarea></td>
+</tr>
+<td> Checkboxes</td>
+<td>
+    <input type="checkbox">English<br>
+    <input type="checkbox">Kannada<br>
+    <input type="checkbox">Sanskrit<br>
+</td>
+</tr>
+<td>Ratio Buttons</td>
+<td>
+    <input type="radio"name="gender">Male<br>
+    <input type="radio"name="gender">Female<br>
+    <input type="radio"name="gender">Others
+</td>
+</tr>
+<tr>
+    <td>Submit</td>
+    <td><input type="submit"value="Submit"></td>
+</tr>
+        </table>
+    </body>
+</html>
